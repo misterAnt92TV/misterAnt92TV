@@ -1,8 +1,8 @@
-# Hi, I'm Simone Formica 👋
+# Simone Formica
 
-**Native Kotlin & Flutter Developer**
+**Senior Kotlin & Flutter Developer** · Native Android · Cross-platform Mobile · Embedded-integrated solutions
 
-Mobile engineer with **13+ years of professional experience** building **native Android**, **cross-platform Flutter**, and **embedded/mobile-integrated solutions** for enterprise and industrial environments.
+I build reliable mobile products for **enterprise**, **industrial**, and **smart-device** environments, with **13+ years of professional experience** across Android native, Flutter, and hardware-connected applications.
 
 📍 Treviso, Italy  
 📧 simone.formica@nttdata.com
@@ -11,92 +11,74 @@ Mobile engineer with **13+ years of professional experience** building **native 
 
 ## About me
 
-I design and develop mobile applications with a strong focus on:
+I am a mobile software engineer specialized in:
 
 - **Kotlin / Android native development**
 - **Flutter cross-platform development**
-- **REST API integration**
+- **REST API integration and system connectivity**
 - **Code quality, testing, and maintainability**
-- **Embedded and hardware-connected mobile solutions**
-- **Agile delivery in enterprise environments**
+- **Embedded and hardware-related mobile solutions**
+- **Agile delivery in complex enterprise contexts**
 
-Over the years, I have worked across logistics, energy, cruise, public sector, smart home, automotive diagnostics, and industrial devices.
+My experience spans multiple sectors including **postal and digital services**, **energy**, **logistics**, **cruise operations**, **public administration**, **smart home**, **automotive diagnostics**, and **industrial devices**.
 
 ---
 
-## Core skills
+## Tech stack
 
-### Mobile Development
-- Kotlin
-- Java
-- Flutter
-- Dart
-- Android Jetpack
+### Mobile
+`Kotlin` `Java` `Flutter` `Dart` `Android Jetpack`
 
-### Backend & Integration
-- RESTful APIs
-- Microservices integration
-- SSH
-- Bluetooth / BLE
-- RS232
+### Integration & Architecture
+`REST API` `Microservices` `SSH` `Bluetooth / BLE` `RS232`
 
-### Platforms & Systems
-- Android
-- iOS
-- Linux Embedded
-- Ubuntu Linux
+### Platforms
+`Android` `iOS` `Linux Embedded` `Ubuntu Linux`
 
-### DevOps & Tools
-- Git
-- GitHub
-- GitLab
-- Jenkins
-- Azure DevOps
-- Buddy
+### DevOps & Delivery
+`Git` `GitHub` `GitLab` `Jenkins` `Azure DevOps` `Buddy`
 
 ### Testing & Quality
-- Unit testing
-- Integration testing
-- Appium
-- Release validation
-- Quality gates
+`Unit Testing` `Integration Testing` `Appium` `Release Validation` `Quality Gates`
 
 ---
 
-## Professional experience snapshot
+## Selected experience
 
 ### Poste Italiane — OneApp
-**Role:** Kotlin Developer  
-Development and evolution of high-impact mobile features for one of Italy’s major digital service platforms.
+**Kotlin Developer**  
+Development and evolution of high-impact features for a large-scale mobile platform delivering postal, financial, and digital services.
 
 ### Dolomiti Energia — myDolomiti
-**Role:** Flutter Developer  
-Flutter component development, REST API integration, testing, and release quality support.
+**Flutter Developer**  
+Development of Flutter components, REST API integration, validation activities, and release-readiness support.
 
 ### GLS — Handheld Applications Rebuild
-**Role:** Kotlin Developer  
-Creation of Kotlin-based handheld applications for logistics operations with focus on reliability and maintainability.
+**Kotlin Developer**  
+Rebuild of handheld logistics applications with focus on continuity, maintainability, and operational reliability.
 
 ### MSC Crociere — Explora
-**Role:** Flutter Developer  
-Development of mobile and dashboard solutions for onboard digital services, migrations, SDK updates, and API integrations.
+**Flutter Developer**  
+Delivery of mobile and dashboard solutions for onboard digital services, including migrations, SDK updates, and integrations.
 
 ### Sogei — UNICA
-**Role:** Mobile Native Developer & Tester  
-Feature maintenance, new functionality delivery, and pre-release testing for a public-sector mobile app.
+**Mobile Native Developer & Tester**  
+Maintenance and extension of mobile features, new functionality delivery, and structured pre-release testing.
 
 ### TEXA
-**Role:** Kotlin Developer  
-Long-term development of Android and embedded solutions for proprietary automotive diagnostic devices.
+**Kotlin Developer**  
+Long-term development of Android and embedded solutions for proprietary automotive diagnostic hardware and software ecosystems.
 
 ---
 
-## Selected domains
+## Industry focus
 
-- Enterprise mobile apps
-- Embedded Android solutions
+- Enterprise mobile applications
+- Native Android solutions
+- Flutter cross-platform apps
+- Embedded Android and connected devices
 - Smart home applications
-- Logistics and handheld tools
+- Logistics and field-operation tools
 - Automotive diagnostics
 - Public sector applications
 
@@ -104,120 +86,102 @@ Long-term development of Android and embedded solutions for proprietary automoti
 
 ## Community & education
 
-Beyond professional work, I also:
+Alongside professional work, I also:
 
 - teach children the basics of programming using **Scratch, Micro:bit, Arduino, and Lego Mindstorms**
-- help organize tech events and meetups such as **GDG Venice DevFest**
+- contribute to local tech communities and help organize events such as **GDG Venice DevFest**
 
 ---
 
 ## Languages
 
-- Italian — Native
-- English — Good
-- German — Basic
+- **Italian** — Native
+- **English** — Good
+- **German** — Basic
 
 ---
 
-# Ciao, sono Simone Formica 👋
+# Simone Formica
 
-**Sviluppatore nativo Kotlin & Flutter**
+**Senior Kotlin & Flutter Developer** · Android nativo · Mobile cross-platform · Soluzioni integrate con sistemi embedded
 
-Ingegnere mobile con **oltre 13 anni di esperienza professionale** nella realizzazione di applicazioni **Android native**, **cross-platform con Flutter** e soluzioni **mobile/embedded integrate** per contesti enterprise e industriali.
+Realizzo prodotti mobile affidabili per contesti **enterprise**, **industriali** e **dispositivi connessi**, con **oltre 13 anni di esperienza professionale** tra sviluppo Android nativo, Flutter e applicazioni integrate con hardware.
 
 📍 Treviso, Italia  
 📧 simone.formica@nttdata.com
 
 ---
 
-## Chi sono
+## Profilo
 
-Progetto e sviluppo applicazioni mobile con forte attenzione a:
+Sono un software engineer specializzato in:
 
 - **sviluppo nativo Kotlin / Android**
-- **sviluppo cross-platform Flutter**
-- **integrazione REST API**
+- **sviluppo cross-platform con Flutter**
+- **integrazione REST API e connettività tra sistemi**
 - **qualità del codice, testing e manutenibilità**
-- **soluzioni mobile collegate a hardware e ambienti embedded**
-- **delivery Agile in contesti enterprise**
+- **soluzioni mobile integrate con hardware ed embedded**
+- **delivery Agile in contesti enterprise complessi**
 
-Nel corso degli anni ho lavorato in ambiti come logistica, energia, crociere, pubblica amministrazione, smart home, diagnostica automotive e dispositivi industriali.
+La mia esperienza copre diversi settori, tra cui **servizi postali e digitali**, **energia**, **logistica**, **servizi di bordo nel settore crocieristico**, **pubblica amministrazione**, **smart home**, **diagnostica automotive** e **dispositivi industriali**.
 
 ---
 
-## Competenze principali
+## Stack tecnologico
 
-### Sviluppo Mobile
-- Kotlin
-- Java
-- Flutter
-- Dart
-- Android Jetpack
+### Mobile
+`Kotlin` `Java` `Flutter` `Dart` `Android Jetpack`
 
-### Backend & Integrazione
-- RESTful API
-- Integrazione con microservizi
-- SSH
-- Bluetooth / BLE
-- RS232
+### Integrazione & Architettura
+`REST API` `Microservizi` `SSH` `Bluetooth / BLE` `RS232`
 
-### Piattaforme & Sistemi
-- Android
-- iOS
-- Linux Embedded
-- Ubuntu Linux
+### Piattaforme
+`Android` `iOS` `Linux Embedded` `Ubuntu Linux`
 
-### DevOps & Strumenti
-- Git
-- GitHub
-- GitLab
-- Jenkins
-- Azure DevOps
-- Buddy
+### DevOps & Delivery
+`Git` `GitHub` `GitLab` `Jenkins` `Azure DevOps` `Buddy`
 
 ### Testing & Qualità
-- Unit testing
-- Integration testing
-- Appium
-- Validazione pre-rilascio
-- Quality gates
+`Unit Testing` `Integration Testing` `Appium` `Validazione pre-rilascio` `Quality Gates`
 
 ---
 
-## Sintesi dell’esperienza professionale
+## Esperienze selezionate
 
 ### Poste Italiane — OneApp
-**Ruolo:** Kotlin Developer  
-Sviluppo ed evoluzione di funzionalità mobile ad alto impatto per una delle principali piattaforme di servizi digitali in Italia.
+**Kotlin Developer**  
+Sviluppo ed evoluzione di funzionalità ad alto impatto per una piattaforma mobile di larga scala dedicata a servizi postali, finanziari e digitali.
 
 ### Dolomiti Energia — myDolomiti
-**Ruolo:** Flutter Developer  
-Sviluppo di componenti Flutter, integrazione REST API, testing e supporto alla qualità pre-rilascio.
+**Flutter Developer**  
+Sviluppo di componenti Flutter, integrazione REST API, attività di validazione e supporto alla qualità pre-rilascio.
 
 ### GLS — Rifacimento app palmari
-**Ruolo:** Kotlin Developer  
-Realizzazione di applicativi Kotlin per la logistica con focus su affidabilità e manutenibilità.
+**Kotlin Developer**  
+Riprogettazione di applicativi logistici per palmari con focus su continuità operativa, manutenibilità e affidabilità.
 
 ### MSC Crociere — Explora
-**Ruolo:** Flutter Developer  
-Sviluppo di soluzioni mobile e dashboard per servizi digitali di bordo, migrazioni tecnologiche e integrazioni API.
+**Flutter Developer**  
+Realizzazione di soluzioni mobile e dashboard per servizi digitali di bordo, incluse migrazioni, aggiornamenti SDK e integrazioni.
 
 ### Sogei — UNICA
-**Ruolo:** Mobile Native Developer & Tester  
-Manutenzione funzionale, sviluppo di nuove feature ed esecuzione di test pre-rilascio per un’app della PA.
+**Mobile Native Developer & Tester**  
+Manutenzione ed estensione di funzionalità mobile, sviluppo di nuove feature ed esecuzione di test strutturati pre-rilascio.
 
 ### TEXA
-**Ruolo:** Kotlin Developer  
-Sviluppo di lungo periodo di soluzioni Android ed embedded per dispositivi proprietari di diagnostica automotive.
+**Kotlin Developer**  
+Sviluppo di lungo periodo di soluzioni Android ed embedded per ecosistemi software e hardware proprietari nel settore della diagnostica automotive.
 
 ---
 
-## Ambiti principali
+## Ambiti di specializzazione
 
-- App mobile enterprise
-- Soluzioni Android embedded
+- Applicazioni mobile enterprise
+- Soluzioni Android native
+- App cross-platform con Flutter
+- Android embedded e dispositivi connessi
 - Applicazioni smart home
-- Strumenti logistici e per palmari
+- Strumenti per logistica e operatività sul campo
 - Diagnostica automotive
 - Applicazioni per la pubblica amministrazione
 
@@ -225,15 +189,15 @@ Sviluppo di lungo periodo di soluzioni Android ed embedded per dispositivi propr
 
 ## Community & formazione
 
-Oltre al lavoro professionale:
+Accanto al lavoro professionale:
 
 - insegno ai bambini le basi della programmazione con **Scratch, Micro:bit, Arduino e Lego Mindstorms**
-- contribuisco all’organizzazione di meetup ed eventi tecnologici come il **GDG Venice DevFest**
+- contribuisco alle community tech locali e all’organizzazione di eventi come **GDG Venice DevFest**
 
 ---
 
 ## Lingue
 
-- Italiano — Madrelingua
-- Inglese — Buono
-- Tedesco — Base
+- **Italiano** — Madrelingua
+- **Inglese** — Buono
+- **Tedesco** — Base
