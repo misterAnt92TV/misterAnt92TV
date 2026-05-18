@@ -26,20 +26,38 @@ My experience spans multiple sectors including **postal and digital services**, 
 
 ## Tech stack
 
-### Mobile
-`Kotlin` `Java` `Flutter` `Dart` `Android Jetpack`
+### Languages & Frameworks
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Android Jetpack](https://img.shields.io/badge/Android%20Jetpack-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
+![Microservices](https://img.shields.io/badge/Microservices-FF6F00?style=for-the-badge)
 
-### Integration & Architecture
-`REST API` `Microservices` `SSH` `Bluetooth / BLE` `RS232`
-
-### Platforms
-`Android` `iOS` `Linux Embedded` `Ubuntu Linux`
+### Mobile & Platforms
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+![Linux Embedded](https://img.shields.io/badge/Linux%20Embedded-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Bluetooth BLE](https://img.shields.io/badge/Bluetooth%20%2F%20BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-111111?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![RS232](https://img.shields.io/badge/RS232-555555?style=for-the-badge)
 
 ### DevOps & Delivery
-`Git` `GitHub` `GitLab` `Jenkins` `Azure DevOps` `Buddy`
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![Buddy](https://img.shields.io/badge/Buddy-1A86FD?style=for-the-badge&logo=buddy&logoColor=white)
 
 ### Testing & Quality
-`Unit Testing` `Integration Testing` `Appium` `Release Validation` `Quality Gates`
+![Unit Testing](https://img.shields.io/badge/Unit%20Testing-4CAF50?style=for-the-badge)
+![Integration Testing](https://img.shields.io/badge/Integration%20Testing-009688?style=for-the-badge)
+![Appium](https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white)
+![Release Validation](https://img.shields.io/badge/Release%20Validation-607D8B?style=for-the-badge)
+![Quality Gates](https://img.shields.io/badge/Quality%20Gates-795548?style=for-the-badge)
 
 ---
 
@@ -129,20 +147,38 @@ La mia esperienza copre diversi settori, tra cui **servizi postali e digitali**,
 
 ## Stack tecnologico
 
-### Mobile
-`Kotlin` `Java` `Flutter` `Dart` `Android Jetpack`
+### Linguaggi & Framework
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Android Jetpack](https://img.shields.io/badge/Android%20Jetpack-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![REST API](https://img.shields.io/badge/REST%20API-005571?style=for-the-badge)
+![Microservizi](https://img.shields.io/badge/Microservizi-FF6F00?style=for-the-badge)
 
-### Integrazione & Architettura
-`REST API` `Microservizi` `SSH` `Bluetooth / BLE` `RS232`
-
-### Piattaforme
-`Android` `iOS` `Linux Embedded` `Ubuntu Linux`
+### Mobile & Piattaforme
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white)
+![Linux Embedded](https://img.shields.io/badge/Linux%20Embedded-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Bluetooth BLE](https://img.shields.io/badge/Bluetooth%20%2F%20BLE-0082FC?style=for-the-badge&logo=bluetooth&logoColor=white)
+![SSH](https://img.shields.io/badge/SSH-111111?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![RS232](https://img.shields.io/badge/RS232-555555?style=for-the-badge)
 
 ### DevOps & Delivery
-`Git` `GitHub` `GitLab` `Jenkins` `Azure DevOps` `Buddy`
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![GitLab](https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure%20DevOps-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white)
+![Buddy](https://img.shields.io/badge/Buddy-1A86FD?style=for-the-badge&logo=buddy&logoColor=white)
 
 ### Testing & Qualità
-`Unit Testing` `Integration Testing` `Appium` `Validazione pre-rilascio` `Quality Gates`
+![Unit Testing](https://img.shields.io/badge/Unit%20Testing-4CAF50?style=for-the-badge)
+![Integration Testing](https://img.shields.io/badge/Integration%20Testing-009688?style=for-the-badge)
+![Appium](https://img.shields.io/badge/Appium-662D91?style=for-the-badge&logo=appium&logoColor=white)
+![Validazione pre-rilascio](https://img.shields.io/badge/Validazione%20pre--rilascio-607D8B?style=for-the-badge)
+![Quality Gates](https://img.shields.io/badge/Quality%20Gates-795548?style=for-the-badge)
 
 ---
 
