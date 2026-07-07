@@ -237,3 +237,35 @@ Accanto al lavoro professionale:
 - **Italiano** — Madrelingua
 - **Inglese** — Buono
 - **Tedesco** — Base
+
+---
+
+## 🛠️ Conoscenze tecnologiche dai repository / Technology knowledge from repositories
+
+La sezione seguente viene aggiornata automaticamente ogni settimana dal workflow
+[Update Language Stats](.github/workflows/update-language-stats.yml).  
+Analizza i repository pubblici dell'utente (esclusi i fork e i repository archiviati) e calcola la composizione
+linguistica in percentuale, basandosi sui byte di codice sorgente come rilevati da
+[GitHub Linguist](https://github.com/github-linguist/linguist).
+
+> This section is automatically updated every week by the
+> [Update Language Stats](.github/workflows/update-language-stats.yml) workflow.
+> It analyses the user's public repositories (forks and archived repos excluded) and shows the language
+> composition as a percentage of source-code bytes detected by GitHub Linguist.
+> The entire block between the `LANGUAGE-STATS` comment markers is replaced on each run,
+> so the username and data shown below are always kept up to date.
+> Run the workflow manually from the Actions tab to refresh the data at any time.
+
+<!-- LANGUAGE-STATS:START -->
+## 📊 Technologies across my repositories
+
+> Auto-generated from public repository language data · [source](.github/scripts/update_language_stats.py)
+
+| Language | Percentage | Distribution |
+|----------|:----------:|:-------------|
+| *(run the workflow to populate real data)* | ![Pending](https://img.shields.io/static/v1?label=share&message=pending&color=546E7A&style=for-the-badge&logo=materialdesign&logoColor=white) | — |
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=material-palenight&hide_border=true&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
+
+> *Forks and archived repositories are excluded. Byte counts reflect the primary language composition as reported by the GitHub Linguist analyser.*
+<!-- LANGUAGE-STATS:END -->
