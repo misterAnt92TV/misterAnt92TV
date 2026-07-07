@@ -8,7 +8,7 @@ and updates the README.md between the LANGUAGE-STATS comment markers.
 Usage:
     GITHUB_TOKEN=<token> GITHUB_USERNAME=<username> python3 update_language_stats.py
 
-Requires Python 3.10+ for the built-in union type syntax used in annotations.
+The workflow runs on Python 3.12; the syntax used here requires Python 3.10+.
 
 No external dependencies — uses only Python standard library.
 """
@@ -106,7 +106,11 @@ def get_repo_languages(username: str, repo_name: str) -> dict:
 
 # ── Stats computation ─────────────────────────────────────────────────────────
 def aggregate_languages(username: str) -> dict[str, int]:
-    """Return a {language: total_bytes} mapping across public repos, excluding forks and archived repos; returns {} when none qualify."""
+    """
+    Return a {language: total_bytes} mapping across public repos.
+
+    Forks and archived repos are excluded. Returns {} when none qualify.
+    """
     repos = get_all_repos(username)
     totals: dict[str, int] = {}
     for repo in repos:
