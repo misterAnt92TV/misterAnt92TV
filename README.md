@@ -237,3 +237,33 @@ Accanto al lavoro professionale:
 - **Italiano** — Madrelingua
 - **Inglese** — Buono
 - **Tedesco** — Base
+
+---
+
+## 🛠️ Conoscenze tecnologiche dai repository / Technology knowledge from repositories
+
+La sezione seguente viene aggiornata automaticamente ogni settimana dal workflow
+[Update Language Stats](.github/workflows/update-language-stats.yml).  
+Analizza i repository pubblici dell'utente (esclusi i fork) e calcola la composizione
+linguistica in percentuale, basandosi sui byte di codice sorgente come rilevati da
+[GitHub Linguist](https://github.com/github-linguist/linguist).
+
+> This section is automatically updated every week by the
+> [Update Language Stats](.github/workflows/update-language-stats.yml) workflow.
+> It analyses the user's public repositories (forks excluded) and shows the language
+> composition as a percentage of source-code bytes detected by GitHub Linguist.
+> Run the workflow manually from the Actions tab to refresh the data at any time.
+
+<!-- LANGUAGE-STATS:START -->
+## 📊 Technologies across my repositories
+
+> Auto-generated from public repository language data · [source](.github/scripts/update_language_stats.py)
+
+| Language | Percentage | Distribution |
+|----------|:----------:|:-------------|
+| **Kotlin** | — | `░░░░░░░░░░░░░░░░░░░░` |
+
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=dark&hide_border=true&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
+
+> *Forks and archived repositories are excluded. Byte counts reflect the primary language composition as reported by the GitHub Linguist analyser.*
+<!-- LANGUAGE-STATS:END -->
