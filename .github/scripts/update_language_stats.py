@@ -32,7 +32,7 @@ BAR_LENGTH  = 20
 
 
 # ── GitHub API helpers ────────────────────────────────────────────────────────
-def gh_get(url: str) -> object:
+def gh_get(url: str) -> "dict | list":
     """Perform an authenticated GET request and return the parsed JSON."""
     req = urllib.request.Request(url)
     req.add_header("Authorization", "Bearer " + GITHUB_TOKEN)
@@ -77,7 +77,7 @@ def aggregate_languages(username: str) -> dict:
     repos = get_all_repos(username)
     totals: dict = {}
     for repo in repos:
-        if repo.get("fork"):
+        if repo.get("fork") or repo.get("archived"):
             continue
         lang_data = get_repo_languages(username, repo["name"])
         for lang, nbytes in lang_data.items():
