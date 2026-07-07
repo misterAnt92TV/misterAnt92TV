@@ -244,14 +244,16 @@ Accanto al lavoro professionale:
 
 La sezione seguente viene aggiornata automaticamente ogni settimana dal workflow
 [Update Language Stats](.github/workflows/update-language-stats.yml).  
-Analizza i repository pubblici dell'utente (esclusi i fork) e calcola la composizione
+Analizza i repository pubblici dell'utente (esclusi i fork e i repository archiviati) e calcola la composizione
 linguistica in percentuale, basandosi sui byte di codice sorgente come rilevati da
 [GitHub Linguist](https://github.com/github-linguist/linguist).
 
 > This section is automatically updated every week by the
 > [Update Language Stats](.github/workflows/update-language-stats.yml) workflow.
-> It analyses the user's public repositories (forks excluded) and shows the language
+> It analyses the user's public repositories (forks and archived repos excluded) and shows the language
 > composition as a percentage of source-code bytes detected by GitHub Linguist.
+> The entire block between the `LANGUAGE-STATS` comment markers is replaced on each run,
+> so the username and data shown below are always kept up to date.
 > Run the workflow manually from the Actions tab to refresh the data at any time.
 
 <!-- LANGUAGE-STATS:START -->

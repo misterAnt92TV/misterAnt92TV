@@ -144,7 +144,8 @@ def render_markdown(stats: list, username: str) -> str:
     ]
     for lang, pct in stats:
         bar = make_bar(pct)
-        lines.append(f"| **{lang}** | {pct:.1f}% | `{bar}` |")
+        safe_lang = lang.replace("|", r"\|")  # escape Markdown table separator
+        lines.append(f"| **{safe_lang}** | {pct:.1f}% | `{bar}` |")
 
     lines += [
         "",
