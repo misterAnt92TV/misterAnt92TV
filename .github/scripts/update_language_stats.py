@@ -33,7 +33,13 @@ BAR_LENGTH  = 20
 
 # ── GitHub API helpers ────────────────────────────────────────────────────────
 def gh_get(url: str) -> dict | list:
-    """Perform an authenticated GET request and return the parsed JSON."""
+    """
+    Perform an authenticated GET request and return the parsed JSON.
+
+    Returns a list for collection endpoints (e.g. /repos) and a dict for
+    object endpoints (e.g. /languages). Callers should handle the expected type.
+    Raises urllib.error.HTTPError on non-2xx responses.
+    """
     req = urllib.request.Request(url)
     req.add_header("Authorization", "Bearer " + GITHUB_TOKEN)
     req.add_header("Accept", "application/vnd.github+json")
@@ -52,7 +58,16 @@ def get_all_repos(username: str) -> list:
             f"{API_BASE}/users/{username}/repos"
             f"?type=public&per_page=100&page={page}"
         )
-        page_data = gh_get(url)
+        try:
+            page_data = gh_get(url)
+        except urllib.error.HTTPError as exc:
+            print(
+                f"ERROR: could not fetch repositories for {username} "
+                f"(HTTP {exc.code}: {exc.reason}). "
+                "Check that GITHUB_TOKEN is valid and has the correct permissions.",
+                file=sys.stderr,
+            )
+            sys.exit(1)
         if not page_data:
             break
         repos.extend(page_data)
@@ -111,6 +126,8 @@ def compute_percentages(totals: dict) -> list:
 
 # ── Markdown rendering ────────────────────────────────────────────────────────
 def make_bar(pct: float) -> str:
+    # min() is a defensive guard against floating-point edge cases where
+    # pct is very slightly above 100 due to rounding.
     filled = min(round(pct / 100 * BAR_LENGTH), BAR_LENGTH)
     return BAR_FILLED * filled + BAR_EMPTY * (BAR_LENGTH - filled)
 

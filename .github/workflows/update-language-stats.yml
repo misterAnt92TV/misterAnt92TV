@@ -37,6 +37,9 @@ jobs:
       - name: Run language stats updater
         env:
           GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          # repository_owner is the account that owns this profile repository
+          # (e.g. 'misterAnt92TV'). For a personal profile repo this is always
+          # the user whose language stats we want to display.
           GITHUB_USERNAME: ${{ github.repository_owner }}
           README_PATH:     README.md
         run: python3 .github/scripts/update_language_stats.py
