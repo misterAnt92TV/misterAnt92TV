@@ -1,6 +1,11 @@
 # Simone Formica
 
-[🇮🇹 Versione italiana / Italian version](README.it.md)
+Available languages:
+- [🇬🇧 English](README.md)
+- [🇮🇹 Italiano](README.it.md)
+- [🇩🇪 Deutsch](README.de.md)
+- [🇪🇸 Español](README.es.md)
+- [🇫🇷 Français](README.fr.md)
 
 **Senior Kotlin & Flutter Developer** · Native Android · Cross-platform Mobile · Embedded-integrated solutions
 
