@@ -104,7 +104,7 @@ def get_repo_languages(username: str, repo_name: str) -> dict:
 
 # ── Stats computation ─────────────────────────────────────────────────────────
 def aggregate_languages(username: str) -> dict[str, int]:
-    """Aggregate language byte counts across public repositories, excluding forks and archived repos."""
+    """Return a {language: total_bytes} mapping across public repos, excluding forks and archived repos."""
     repos = get_all_repos(username)
     totals: dict[str, int] = {}
     for repo in repos:
@@ -137,6 +137,7 @@ def compute_percentages(totals: dict) -> list:
 
 # ── Markdown rendering ────────────────────────────────────────────────────────
 def make_bar(pct: float) -> str:
+    """Render a fixed-width text bar for a percentage using filled and empty block characters."""
     # Clamp the filled cells to the valid 0..BAR_LENGTH range to guard
     # against unexpected negative values and floating-point overflow.
     filled = max(0, min(round(pct / 100 * BAR_LENGTH), BAR_LENGTH))
@@ -144,6 +145,7 @@ def make_bar(pct: float) -> str:
 
 
 def make_percentage_badge(pct: float, rank: int) -> str:
+    """Render a Material-inspired shields.io badge for a percentage, cycling colors by rank."""
     color = MATERIAL_COLORS[rank % len(MATERIAL_COLORS)]
     value = urllib.parse.quote(f"{pct:.1f}%")
     return (
@@ -154,6 +156,7 @@ def make_percentage_badge(pct: float, rank: int) -> str:
 
 
 def render_markdown(stats: list, username: str) -> str:
+    """Render the complete README stats block from (language, percentage) tuples for a GitHub user."""
     lines = [
         "## 📊 Technologies across my repositories",
         "",
@@ -185,6 +188,7 @@ def render_markdown(stats: list, username: str) -> str:
 
 # ── README update ─────────────────────────────────────────────────────────────
 def update_readme(new_section: str, readme_path: str) -> None:
+    """Replace the README content between the language stats markers with the newly rendered section."""
     with open(readme_path, "r", encoding="utf-8") as fh:
         content = fh.read()
 
