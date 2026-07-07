@@ -36,7 +36,7 @@ jobs:
 
       - name: Run language stats updater
         env:
-          GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # repository_owner is the account that owns this profile repository
           # (e.g. 'misterAnt92TV'). For a personal profile repo this is always
           # the user whose language stats we want to display.
