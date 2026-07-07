@@ -32,7 +32,7 @@ BAR_LENGTH  = 20
 
 
 # ── GitHub API helpers ────────────────────────────────────────────────────────
-def gh_get(url: str) -> "dict | list":
+def gh_get(url: str) -> dict | list:
     """Perform an authenticated GET request and return the parsed JSON."""
     req = urllib.request.Request(url)
     req.add_header("Authorization", "Bearer " + GITHUB_TOKEN)
@@ -72,10 +72,10 @@ def get_repo_languages(username: str, repo_name: str) -> dict:
 
 
 # ── Stats computation ─────────────────────────────────────────────────────────
-def aggregate_languages(username: str) -> dict:
+def aggregate_languages(username: str) -> dict[str, int]:
     """Aggregate language byte counts across all public repositories."""
     repos = get_all_repos(username)
-    totals: dict = {}
+    totals: dict[str, int] = {}
     for repo in repos:
         if repo.get("fork") or repo.get("archived"):
             continue
@@ -103,7 +103,7 @@ def compute_percentages(totals: dict) -> list:
 
 # ── Markdown rendering ────────────────────────────────────────────────────────
 def make_bar(pct: float) -> str:
-    filled = round(pct / 100 * BAR_LENGTH)
+    filled = min(round(pct / 100 * BAR_LENGTH), BAR_LENGTH)
     return BAR_FILLED * filled + BAR_EMPTY * (BAR_LENGTH - filled)
 
 
