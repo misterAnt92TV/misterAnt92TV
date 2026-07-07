@@ -201,10 +201,10 @@ def render_markdown(stats: list, username: str) -> str:
 
     lines += [
         "",
-        "[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/"
+        "[![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/"
         f"?username={username}&layout=compact&langs_count=10"
         "&theme=material-palenight&hide_border=true&card_width=500)]"
-        "(https://github.com/anuraghazra/github-readme-stats)",
+        "(https://github.com/stats-organization/github-stats-extended)",
         "",
         "> *Forks and archived repositories are excluded. "
         "Byte counts reflect the primary language composition "
