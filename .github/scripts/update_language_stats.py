@@ -147,12 +147,33 @@ def make_bar(pct: float) -> str:
 def make_percentage_badge(pct: float, rank: int) -> str:
     """Render a Material-inspired shields.io badge for a percentage, cycling colors by rank."""
     color = MATERIAL_COLORS[rank % len(MATERIAL_COLORS)]
-    value = urllib.parse.quote(f"{pct:.1f}%")
+    query = urllib.parse.urlencode(
+        {
+            "label": "share",
+            "message": f"{pct:.1f}%",
+            "color": color,
+            "style": "for-the-badge",
+            "logo": "materialdesign",
+            "logoColor": "white",
+        }
+    )
     return (
         f"![{pct:.1f}%]"
-        f"(https://img.shields.io/badge/share-{value}-{color}"
-        "?style=for-the-badge&logo=materialdesign&logoColor=white)"
+        f"(https://img.shields.io/static/v1?{query})"
     )
+
+
+def escape_table_text(text: str) -> str:
+    """Escape Markdown-sensitive characters used in README table cells."""
+    for old, new in (
+        ("\\", "\\\\"),
+        ("|", "\\|"),
+        ("*", "\\*"),
+        ("_", "\\_"),
+        ("`", "\\`"),
+    ):
+        text = text.replace(old, new)
+    return text
 
 
 def render_markdown(stats: list, username: str) -> str:
@@ -169,7 +190,7 @@ def render_markdown(stats: list, username: str) -> str:
     for rank, (lang, pct) in enumerate(stats):
         bar = make_bar(pct)
         badge = make_percentage_badge(pct, rank)
-        safe_lang = lang.replace("|", "\\|")  # escape Markdown table separator
+        safe_lang = escape_table_text(lang)
         lines.append(f"| **{safe_lang}** | {badge} | `{bar}` |")
 
     lines += [
