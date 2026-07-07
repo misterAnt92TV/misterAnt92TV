@@ -147,7 +147,7 @@ Alongside professional work, I also:
 | **Python** | ![0.2%](https://img.shields.io/static/v1?label=share&message=0.2%25&color=3572A5&style=for-the-badge&logo=materialdesign&logoColor=white) | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 | **Swift** | ![0.1%](https://img.shields.io/static/v1?label=share&message=0.1%25&color=F05138&style=for-the-badge&logo=materialdesign&logoColor=white) | `░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░` |
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=material-palenight&hide_border=true&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=material-palenight&hide_border=true&card_width=500)](https://github.com/stats-organization/github-stats-extended)
 
 > *Forks and archived repositories are excluded. Byte counts reflect the primary language composition as reported by the GitHub Linguist analyser.*
 <!-- LANGUAGE-STATS:END -->
