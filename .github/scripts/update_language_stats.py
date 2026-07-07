@@ -104,7 +104,7 @@ def get_repo_languages(username: str, repo_name: str) -> dict:
 
 # ── Stats computation ─────────────────────────────────────────────────────────
 def aggregate_languages(username: str) -> dict[str, int]:
-    """Aggregate language byte counts across all public repositories."""
+    """Aggregate language byte counts across public repositories, excluding forks and archived repos."""
     repos = get_all_repos(username)
     totals: dict[str, int] = {}
     for repo in repos:
@@ -137,9 +137,9 @@ def compute_percentages(totals: dict) -> list:
 
 # ── Markdown rendering ────────────────────────────────────────────────────────
 def make_bar(pct: float) -> str:
-    # min() is a defensive guard against floating-point edge cases where
-    # pct is very slightly above 100 due to rounding.
-    filled = min(round(pct / 100 * BAR_LENGTH), BAR_LENGTH)
+    # Clamp the filled cells to the valid 0..BAR_LENGTH range to guard
+    # against unexpected negative values and floating-point overflow.
+    filled = max(0, min(round(pct / 100 * BAR_LENGTH), BAR_LENGTH))
     return BAR_FILLED * filled + BAR_EMPTY * (BAR_LENGTH - filled)
 
 
@@ -197,7 +197,7 @@ def update_readme(new_section: str, readme_path: str) -> None:
         sys.exit(1)
 
     before = content[: content.index(MARKER_START) + len(MARKER_START)]
-    after  = content[content.index(MARKER_END):]
+    after = content[content.index(MARKER_END):]
     updated = f"{before}\n{new_section}\n{after}"
 
     with open(readme_path, "w", encoding="utf-8") as fh:
