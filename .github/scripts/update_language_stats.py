@@ -8,6 +8,8 @@ and updates the README.md between the LANGUAGE-STATS comment markers.
 Usage:
     GITHUB_TOKEN=<token> GITHUB_USERNAME=<username> python3 update_language_stats.py
 
+Requires Python 3.10+ for the built-in union type syntax used in annotations.
+
 No external dependencies — uses only Python standard library.
 """
 
@@ -104,7 +106,7 @@ def get_repo_languages(username: str, repo_name: str) -> dict:
 
 # ── Stats computation ─────────────────────────────────────────────────────────
 def aggregate_languages(username: str) -> dict[str, int]:
-    """Return a {language: total_bytes} mapping across public repos, excluding forks and archived repos."""
+    """Return a {language: total_bytes} mapping across public repos, excluding forks and archived repos; returns {} when none qualify."""
     repos = get_all_repos(username)
     totals: dict[str, int] = {}
     for repo in repos:
@@ -139,7 +141,7 @@ def compute_percentages(totals: dict) -> list:
 def make_bar(pct: float) -> str:
     """Render a fixed-width text bar for a percentage using filled and empty block characters."""
     # Clamp the filled cells to the valid 0..BAR_LENGTH range to guard
-    # against unexpected negative values and floating-point overflow.
+    # against unexpected negative values and percentages slightly above 100.
     filled = max(0, min(round(pct / 100 * BAR_LENGTH), BAR_LENGTH))
     return BAR_FILLED * filled + BAR_EMPTY * (BAR_LENGTH - filled)
 
