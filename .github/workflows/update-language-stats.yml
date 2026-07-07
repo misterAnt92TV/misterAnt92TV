@@ -37,7 +37,7 @@ jobs:
       - name: Run language stats updater
         env:
           GITHUB_TOKEN:    ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_USERNAME: misterAnt92TV
+          GITHUB_USERNAME: ${{ github.repository_owner }}
           README_PATH:     README.md
         run: python3 .github/scripts/update_language_stats.py
 

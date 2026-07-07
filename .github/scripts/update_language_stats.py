@@ -67,7 +67,12 @@ def get_repo_languages(username: str, repo_name: str) -> dict:
     url = f"{API_BASE}/repos/{username}/{repo_name}/languages"
     try:
         return gh_get(url)
-    except urllib.error.HTTPError:
+    except urllib.error.HTTPError as exc:
+        print(
+            f"WARNING: could not fetch languages for {username}/{repo_name} "
+            f"(HTTP {exc.code}). Skipping.",
+            file=sys.stderr,
+        )
         return {}
 
 
@@ -89,6 +94,9 @@ def compute_percentages(totals: dict) -> list:
     """
     Return a sorted list of (language, percentage) tuples,
     keeping only languages that represent >= 0.5 % of total bytes.
+
+    Percentages are rounded to one decimal place, so displayed values
+    may not sum to exactly 100 % (typical deviation is < 1 %).
     """
     grand_total = sum(totals.values())
     if grand_total == 0:
