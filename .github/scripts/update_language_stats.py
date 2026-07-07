@@ -119,7 +119,7 @@ def aggregate_languages(username: str) -> dict[str, int]:
 def compute_percentages(totals: dict) -> list:
     """
     Return a sorted list of (language, percentage) tuples,
-    keeping only languages that represent >= 0.5 % of total bytes.
+    keeping only languages that represent >= 0.5% of total bytes.
 
     Percentages are rounded to one decimal place, so displayed values
     may not sum to exactly 100 % (typical deviation is < 1 %).
@@ -166,7 +166,7 @@ def render_markdown(stats: list, username: str) -> str:
     for rank, (lang, pct) in enumerate(stats):
         bar = make_bar(pct)
         badge = make_percentage_badge(pct, rank)
-        safe_lang = lang.replace("|", r"\|")  # escape Markdown table separator
+        safe_lang = lang.replace("|", "\\|")  # escape Markdown table separator
         lines.append(f"| **{safe_lang}** | {badge} | `{bar}` |")
 
     lines += [
