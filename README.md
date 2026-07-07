@@ -263,7 +263,7 @@ linguistica in percentuale, basandosi sui byte di codice sorgente come rilevati 
 
 | Language | Percentage | Distribution |
 |----------|:----------:|:-------------|
-| *(run the workflow to populate real data)* | ![Pending](https://img.shields.io/static/v1?label=share&message=pending&color=546E7A&style=for-the-badge&logo=materialdesign&logoColor=white) | — |
+| **Kotlin** | ![99.7%](https://img.shields.io/static/v1?label=share&message=99.7%25&color=7E57C2&style=for-the-badge&logo=materialdesign&logoColor=white) | `████████████████████` |
 
 [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=material-palenight&hide_border=true&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
 
