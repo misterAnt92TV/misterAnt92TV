@@ -16,6 +16,7 @@ import os
 import sys
 import urllib.request
 import urllib.error
+import urllib.parse
 
 # ── Configuration ────────────────────────────────────────────────────────────
 GITHUB_TOKEN    = os.environ.get("GITHUB_TOKEN", "")
@@ -29,6 +30,16 @@ MARKER_END   = "<!-- LANGUAGE-STATS:END -->"
 BAR_FILLED  = "█"
 BAR_EMPTY   = "░"
 BAR_LENGTH  = 20
+MATERIAL_COLORS = [
+    "7E57C2",
+    "42A5F5",
+    "26A69A",
+    "66BB6A",
+    "FFA726",
+    "EF5350",
+    "EC407A",
+    "8D6E63",
+]
 
 
 # ── GitHub API helpers ────────────────────────────────────────────────────────
@@ -132,6 +143,16 @@ def make_bar(pct: float) -> str:
     return BAR_FILLED * filled + BAR_EMPTY * (BAR_LENGTH - filled)
 
 
+def make_percentage_badge(pct: float, rank: int) -> str:
+    color = MATERIAL_COLORS[rank % len(MATERIAL_COLORS)]
+    value = urllib.parse.quote(f"{pct:.1f}%")
+    return (
+        f"![{pct:.1f}%]"
+        f"(https://img.shields.io/badge/share-{value}-{color}"
+        "?style=for-the-badge&logo=materialdesign&logoColor=white)"
+    )
+
+
 def render_markdown(stats: list, username: str) -> str:
     lines = [
         "## 📊 Technologies across my repositories",
@@ -142,16 +163,17 @@ def render_markdown(stats: list, username: str) -> str:
         "| Language | Percentage | Distribution |",
         "|----------|:----------:|:-------------|",
     ]
-    for lang, pct in stats:
+    for rank, (lang, pct) in enumerate(stats):
         bar = make_bar(pct)
+        badge = make_percentage_badge(pct, rank)
         safe_lang = lang.replace("|", r"\|")  # escape Markdown table separator
-        lines.append(f"| **{safe_lang}** | {pct:.1f}% | `{bar}` |")
+        lines.append(f"| **{safe_lang}** | {badge} | `{bar}` |")
 
     lines += [
         "",
         "[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/"
         f"?username={username}&layout=compact&langs_count=10"
-        "&theme=dark&hide_border=true&card_width=500)]"
+        "&theme=material-palenight&hide_border=true&card_width=500)]"
         "(https://github.com/anuraghazra/github-readme-stats)",
         "",
         "> *Forks and archived repositories are excluded. "

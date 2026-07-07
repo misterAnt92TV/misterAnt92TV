@@ -263,9 +263,9 @@ linguistica in percentuale, basandosi sui byte di codice sorgente come rilevati 
 
 | Language | Percentage | Distribution |
 |----------|:----------:|:-------------|
-| *(run the workflow to populate real data)* | — | — |
+| *(run the workflow to populate real data)* | ![Pending](https://img.shields.io/badge/share-pending-546E7A?style=for-the-badge&logo=materialdesign&logoColor=white) | — |
 
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=dark&hide_border=true&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=material-palenight&hide_border=true&card_width=500)](https://github.com/anuraghazra/github-readme-stats)
 
 > *Forks and archived repositories are excluded. Byte counts reflect the primary language composition as reported by the GitHub Linguist analyser.*
 <!-- LANGUAGE-STATS:END -->
