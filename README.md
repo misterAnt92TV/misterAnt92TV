@@ -143,7 +143,7 @@ Alongside professional work, I also:
 
 | Language | Percentage | Distribution |
 |----------|:----------:|:-------------|
-| **Kotlin** | ![99.7%](https://img.shields.io/static/v1?label=share&message=99.7%25&color=7E57C2&style=for-the-badge&logo=materialdesign&logoColor=white) | `████████████████████` |
+| **Kotlin** | ![99.4%](https://img.shields.io/static/v1?label=share&message=99.4%25&color=7E57C2&style=for-the-badge&logo=materialdesign&logoColor=white) | `████████████████████` |
 
 [![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=misterAnt92TV&layout=compact&langs_count=10&theme=material-palenight&hide_border=true&card_width=500)](https://github.com/stats-organization/github-stats-extended)
 
